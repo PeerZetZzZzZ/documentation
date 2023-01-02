@@ -74,7 +74,7 @@ Ganache is a mock testnet. Although you can run nodes on Ganache, it is not offi
    Be sure to update the value for `CHANGEME` to the value given by your [external Ethereum provider](/chainlink-nodes/resources/run-an-ethereum-client/#external-services). Update the value for `mysecretpassword` to the chosen password in [Run PostgreSQL](#run-postgresql).
 
    ```shell Goerli
-   echo "ROOT=/chainlink
+   echo "ROOT=/home/chainlink
    LOG_LEVEL=debug
    ETH_CHAIN_ID=5
    CHAINLINK_TLS_PORT=0
